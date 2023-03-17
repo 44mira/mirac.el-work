@@ -16,14 +16,14 @@ Do note that most of these do not come from an actual Education background, but 
 
 ## **TABLE OF CONTENTS :**
 
-[ ] Code Readability
-[ ] Pointers
-[ ] Mathematics?!
-[ ] Iterators, Unpacking, and Python
-[ ] [Object-Oriented Programming (but not like, all of it)](OOP/README.md)
-[ ] C++ Arrays and Vectors
-[ ] JSONS and File Handling
-[ ] Lambda Functions
+- [ ] Code Readability
+- [ ] Pointers
+- [ ] Mathematics?!
+- [ ] Iterators, Unpacking, and Python
+- [ ] [Object-Oriented Programming (but not like, all of it)](OOP/README.md)
+- [ ] C++ Arrays and Vectors
+- [ ] JSONS and File Handling
+- [ ] Lambda Functions
 
 *... and possibly more*
 <br><br>
