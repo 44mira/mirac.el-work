@@ -17,14 +17,24 @@ Do note that most of these do not come from an actual Education background, but 
 ## **TABLE OF CONTENTS :**
 
 - [ ] [Code Readability, or Coding for Human Consumption](READABILITY/README.md)
+  - Make aesthetically pleasing chaos machines.
 - [ ] [Pointers, and Pointers that point to Pointers, and Pointers that...](POINTERS/README.md)
+  - All about pointers and why they're actually pretty cool.
 - [ ] [Mathematics?!](MATH/README.md)
+  - Logarithms, Binary Operations and Python Combinatorics?!!?!?!
 - [ ] [Iterators, Unpacking, and Python](LOOP/README.md)
+  - Stuff that repeat, or stuff that can be repeated, and the stuff that come from them. (ft. Python)
 - [ ] [Object-Oriented Programming (but not like, all of it)](OOP/README.md)
-- [ ] [C++ Arrays, Vectors, and other Data Types, and where to find them](ADT/README.md)
-- [ ] [JSONS and File Handling, and leaving a lasting impression](JSON/README.md)
+  - Classes/Objects and the mindset behind orienting everything around them.
+- [ ] [C++ Arrays, Vectors, other Abstract Data Types, and where to find them](ADT/README.md)
+  - The unofficial definitive guide to Abstract Data Types, or handling your data more efficiently.
+- [ ] [JSONS and leaving a lasting impression](JSON/README.md)
+  - JSONS are awesome, especially if you want to make digital footprints locally (like in your PC)
 - [ ] [Manic-Pixie Dream Functions (more commonly known as Lambdas)](LAMBDA/README.md)
+  - Making anonymous functions that are just overall super convenient
 - [ ] [Creating Cool Stuff with the Cool Things you learned!](COOLSTUFF/README.md)
+  - If you're like me, you like learning stuff you know you can apply. So go henceforth, create and destroy.
+
 
 *... and possibly more*
 <br><br>
