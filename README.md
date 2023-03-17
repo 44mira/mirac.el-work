@@ -16,16 +16,17 @@ Do note that most of these do not come from an actual Education background, but 
 
 ## **TABLE OF CONTENTS :**
 
-- [ ] Code Readability
-- [ ] Pointers
-- [ ] Mathematics?!
-- [ ] Iterators, Unpacking, and Python
+- [ ] [Code Readability, or Coding for Human Consumption](READABILITY/README.md)
+- [ ] [Pointers, and Pointers that point to Pointers, and Pointers that...](POINTERS/README.md)
+- [ ] [Mathematics?!](MATH/README.md)
+- [ ] [Iterators, Unpacking, and Python](LOOP/README.md)
 - [ ] [Object-Oriented Programming (but not like, all of it)](OOP/README.md)
-- [ ] C++ Arrays and Vectors
-- [ ] JSONS and File Handling
-- [ ] Lambda Functions
+- [ ] [C++ Arrays, Vectors, and other Data Types, and where to find them](ADT/README.md)
+- [ ] [JSONS and File Handling, and leaving a lasting impression](JSON/README.md)
+- [ ] [Manic-Pixie Dream Functions (more commonly known as Lambdas)](LAMBDA/README.md)
+- [ ] [Creating Cool Stuff with the Cool Things you learned!](COOLSTUFF/README.md)
 
 *... and possibly more*
 <br><br>
 
-- L
+\- L
