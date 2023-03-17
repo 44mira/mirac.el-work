@@ -5,7 +5,7 @@
 ## Hey there!
 ![hey there cpp](https://user-images.githubusercontent.com/116419708/225995365-c9e80994-9d72-4fdc-b92c-b5a6f18841ad.gif)
 
-### My name is Tyrael and I **love** coding and teaching whatever I can! I hope you find at least some of these materials helpful.
+### My name is Tyrael and I **love** coding and teaching whatever I can!
 
 I like learning and one of my biggest gripes with the education system is how they give it such a bad rep. So this is a passion project of mine,
 that will hopefully help someone out there enjoy learning about coding as much as I do. :hugs:
@@ -15,6 +15,7 @@ Do note that most of these do not come from an actual Education background, but 
 <br>
 
 ## **TABLE OF CONTENTS :**
+### *Most of the code here will be in C++ or Python*
 
 - [ ] [Code Readability, or Coding for Human Consumption](READABILITY/README.md)
   - Make aesthetically pleasing chaos machines.
@@ -24,6 +25,8 @@ Do note that most of these do not come from an actual Education background, but 
   - Logarithms, Binary Operations and Python Combinatorics?!!?!?!
 - [ ] [Iterators, Unpacking, and Python](LOOP/README.md)
   - Stuff that repeat, or stuff that can be repeated, and the stuff that come from them. (ft. Python)
+- [ ] [String Theory. But with no Quantum Physics](STRING/README.md)
+  - All about **S**trings and manipulating them.
 - [ ] [Object-Oriented Programming (but not like, all of it)](OOP/README.md)
   - Classes/Objects and the mindset behind orienting everything around them.
 - [ ] [C++ Arrays, Vectors, other Abstract Data Types, and where to find them](ADT/README.md)
@@ -38,6 +41,9 @@ Do note that most of these do not come from an actual Education background, but 
 
 *... and possibly more*
 <br><br>
+
+I hope you find at least some of these materials helpful.
+![goodbye](https://user-images.githubusercontent.com/116419708/226025688-1eedbdf5-bc37-4bbf-b946-a0d90bfab84a.gif)
 
 
 \- L
