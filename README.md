@@ -29,9 +29,9 @@ Do note that most of these do not come from an actual Education background, but 
 - [ ] [C++ Arrays, Vectors, other Abstract Data Types, and where to find them](ADT/README.md)
   - The unofficial definitive guide to Abstract Data Types, or handling your data more efficiently.
 - [ ] [JSONS and leaving a lasting impression](JSON/README.md)
-  - JSONS are awesome, especially if you want to make digital footprints locally (like in your PC)
+  - JSONS are awesome, especially if you want to make digital footprints locally (like in your PC).
 - [ ] [Manic-Pixie Dream Functions (more commonly known as Lambdas)](LAMBDA/README.md)
-  - Making anonymous functions that are just overall super convenient
+  - Making anonymous functions that are just overall super convenient.
 - [ ] [Creating Cool Stuff with the Cool Things you learned!](COOLSTUFF/README.md)
   - If you're like me, you like learning stuff you know you can apply. So go henceforth, create and destroy.
 
@@ -39,4 +39,8 @@ Do note that most of these do not come from an actual Education background, but 
 *... and possibly more*
 <br><br>
 
+
 \- L
+
+<br>
+return 0;
