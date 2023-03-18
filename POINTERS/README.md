@@ -121,8 +121,9 @@
   - So what does it mean to say that *"Arrays are pointers to contiguous data?"*
 
   Memory addresses are selected at, for simplicity's sake, random and are not arranged at any order. Except for *arrays.*
-  Arrays are stored in addresses that are *consecutive* to each other, in memory arrays, which means if you find a way to move *forward* by one address,
-  you would essentially be traversing the array by one index. 
+  Arrays are stored in addresses that are *consecutive* to each other, in memory arrays. Going back to the analogy on addresses being last names,
+  you can think of arrays as people with the same last name, they are all closely related to each other. Which means if you find a way to move *forward* 
+  by one address, you would essentially be traversing the array by one index. 
   
   - However, memory addresses do not necessarily occupy just one bit, besides the address for a char, and varies on the data type's size.
   So to move *forward* in an integer array, you would essentially have to go forward by FOUR (int size is 4 bytes) bytes in memory.
