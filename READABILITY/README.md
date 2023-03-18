@@ -83,7 +83,7 @@ int get_age(int bday_m, int bday_d, int bday_y, int targ_m, int targ_d, int targ
     ...
 }
 ```
-**note how the if condition for getting year_value is put onto a seperate function as to not nest the code**
+<sup>***note how the if condition for getting year_value is put onto a seperate function as to not nest the code***</sup>
 
   - Moreover, always remember that control flow operators (if-else, while loops, basically anything that requires a condition) take in boolean, or true or false.
     Recall that true or false can be also represented as 0 and 1 in pretty much all programming languages, so a good shorthand for checking for zero or not zero,
