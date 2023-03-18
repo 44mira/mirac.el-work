@@ -22,8 +22,9 @@
 ![insetoffset](https://user-images.githubusercontent.com/116419708/226085375-3c6dda98-0a15-442e-9e57-b2d36e902c74.gif)
 
   - I personally do not mind either. I prefer Offset bracing as I like avoiding the claustrophobic feel of words being packed into one tight space vertically.
-    However, the main appeal of Inset bracing is the compact feel it will give your code. Ultimately, it's an entirely stylistic decision, just be consistent:
-    do not alternate between either or they will look more like speedbumps for the reader instead of grouping operators.
+    However, the main appeal of Inset bracing is the compact feel it will give your code. 
+  - Ultimately, it's an entirely stylistic decision, just be consistent: do not alternate between either or they will look more like speedbumps
+    for the reader instead of grouping operators.
   
 ```
 int main()
@@ -48,5 +49,5 @@ int main()
 ```
   - Lastly, remember to properly indent whenever you enter a code block, and that you can omit the curly braces for when your code block only has **ONE** statement.
     If you value stability over sleekness, it is much safer to put in the braces. Only if you are uncertain on whether or not that code block will expand in the future.
-    A good rule to check for matching braces is to see if the statement that started your code block aligns/is in the same indentation further down with a 
+  - A good rule to check for matching braces is to see if the statement that started your code block aligns/is in the same indentation further down with a 
     closing curly brace.
