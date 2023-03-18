@@ -1,6 +1,6 @@
 # Code Readability (WIP)
 ###  or Coding for Human Consumption
-
+<sup>*chapter author : el*</sup>
 <br>
 
 > "Doing it good is not enough, you have to look good while doing it."
