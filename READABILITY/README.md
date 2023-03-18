@@ -16,9 +16,9 @@
   _Code architecture is important_, so here are some opinionated takes I have on good programming practices, which you can take as code design guidelines.
   <br><br>
 ## TABLE OF CONTENTS:
-  - [BRACES AND INDENTS](/README.md#braces-and-indents)
-  - [NESTING AND CONDITIONS](/README.md#nesting-and-conditions)
-  - [NAMING AND CONSTANTS](/README.md#naming-and-constants)
+  - [BRACES AND INDENTS](README.md#braces-and-indents)
+  - [NESTING AND CONDITIONS](README.md#nesting-and-conditions)
+  - [NAMING AND CONSTANTS](README.md#naming-and-constants)
   
 ## BRACES AND INDENTS
 
