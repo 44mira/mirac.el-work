@@ -125,7 +125,7 @@
   you can think of arrays as people with the same last name, they are all closely related to each other. Which means if you find a way to move *forward* 
   by one address, you would essentially be traversing the array by one index. 
   
-  - However, memory addresses do not necessarily occupy just one bit, besides the address for a char, and varies on the data type's size.
+  - However, memory addresses do not necessarily occupy just one byte, besides the address for a char, and varies on the data type's size.
   So to move *forward* in an integer array, you would essentially have to go forward by FOUR (int size is 4 bytes) bytes in memory.
   However, we do not have to worry about that right now, as pointer arithmetic (C's way of navigating addresses) already deals with this for us.
   
