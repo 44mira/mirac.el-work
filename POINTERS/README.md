@@ -22,8 +22,9 @@
 
 
 ## TABLE OF CONTENTS: 
-  - [DEREFERENCING](#DEREFERENCING)
-<br><br><br><br>
+  - [DEREFERENCING](#dereferencing)
+  - [ARRAYS AND ARITHMETIC](#arrays-and-arithmetic)
+<br><br><br>
 
 
 
@@ -108,3 +109,26 @@
   So, in that way, you can think of pointers as almost-variables— they have yet to hold value, but in order for whatever it is that's receiving them to properly
   store them, they must know what type of value they're about to get.
   
+  <br>
+## ARRAYS AND ARITHMETIC
+  
+> Arrays are just pointers to *contiguous* data
+
+  Recall that variables are just memory addresses that hold values/data. Now pointers are also just memory addresses that happen to hold _other_ memory addresses.
+  With this specific idea, we can generalize memory addresses as _containers_ for values in our program.
+  
+  - So what does it mean to say that *"Arrays are pointers to contiguous data?"*
+
+  Memory addresses are selected at, for simplicity's sake, random and are not arranged at any order. Except for *arrays.*
+  Arrays are stored in addresses that are *consecutive* to each other, in memory arrays, which means if you find a way to move *forward* by one address,
+  you would essentially be traversing the array by one index. 
+  
+  - However, memory addresses do not necessarily occupy just one bit, besides the address for a char, and varies on the data type's size.
+  So to move *forward* in an integer array, you would essentially have to go forward by FOUR (int size is 4 bytes) bytes in memory.
+  However, we do not have to worry about that right now, as pointer arithmetic (C's way of navigating addresses) already deals with this for us.
+  
+  ![pointersarray](https://user-images.githubusercontent.com/116419708/226114818-20aaa354-bf83-4954-9413-5ef5ed376a59.gif)
+  
+> Arrays are special pointers that hold the address of the element in their 0th index.
+
+  What this means, is that with carefully addition and subtraction, we can traverse through an array of elements! 
