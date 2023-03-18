@@ -134,3 +134,12 @@
 > Arrays are special pointers that hold the address of the element in their 0th index.
 
   What this means, is that with careful addition and subtraction, we can traverse through an array of elements! 
+
+```
+  int arr[] = {0, 13, 22, 34, 45};    // creation of array
+  
+  for (int i = 0; i < 5; i++) {
+    *(arr+i) += 5;                    // add 5 to every element of the array
+  }
+```
+<sup>**the last index of the array will be located at ( array_pointer + array_length-1 ) because the first index is at ( array_pointer + 0 ) **</sup>
