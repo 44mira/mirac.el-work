@@ -20,6 +20,7 @@
   - [NESTING AND CONDITIONS](README.md#nesting-and-conditions)
   - [NAMING AND CONSTANTS](README.md#naming-and-constants)
   - [SPACING AND COMMENTS](README.md#spacing-and-comments)
+  - [ONELINERS AND TERNARY OPERATORS](README.md#oneliners-and-ternary-operators)
   
 ## BRACES AND INDENTS
 
@@ -128,6 +129,33 @@ int get_age(int bday_m, int bday_d, int bday_y, int targ_m, int targ_d, int targ
   - BUT, whenever you are writing comments, be sure to write *WHY* your code does something, and not *WHAT* it does. The code itself should be sufficient in
     showing what it is doing, due to its procedural (being a sequence of instructions) nature.
     <br><br>
+    
+## ONELINERS AND TERNARY OPERATORS
+  
+  - Though it is quite tempting to always go for less lines, readability suffers the longer your lines get. So don't be shy, use up more lines!
+
+![oneliner](https://user-images.githubusercontent.com/116419708/226096782-3e237c0f-ce6d-412c-ab85-38c3b0f1c2c9.gif)
+
+  - Though it doesn't hurt to come up with very line-efficient algorithms, there has to be a balance with the compactness and readability of your code.
+  - Moreover; ternary operators are very satisfying to read, but it has diminishing returns the longer you chain it.
+  - A good rule of thumb is whenever your ternary operator chains _at least once_, you are better off using if-else statements.
+
+```
+  /* ans can be "yes", "no", or "maybe" */
+  
+  int decision = (ans == "yes") ? 1 : (ans == "no") ? 0 : -1;   // what the hell is happening?
+  
+  int decision;   // oohh
+  if (ans == "yes")
+    decision = 1;
+  else if (ans == "no")
+    decision = 0;
+  else
+    decision = -1;
+```
+
+> **The less mental gymnastics the reader has to go through to understand your code, means the better your readability is.**
+<br><br>
 
 [^1]: [Why You Shouldn't Nest Your Code by Code Aesthetic](https://youtu.be/CFRhGnuXG-4)
 [^2]: [Naming Things in Code by Code Aesthetic](https://youtu.be/-J3wNP6u5YU)
