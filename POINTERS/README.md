@@ -132,4 +132,4 @@
   
 > Arrays are special pointers that hold the address of the element in their 0th index.
 
-  What this means, is that with carefully addition and subtraction, we can traverse through an array of elements! 
+  What this means, is that with careful addition and subtraction, we can traverse through an array of elements! 
