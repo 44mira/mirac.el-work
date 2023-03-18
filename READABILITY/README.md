@@ -125,7 +125,7 @@ int get_age(int bday_m, int bday_d, int bday_y, int targ_m, int targ_d, int targ
 
 ![comments](https://user-images.githubusercontent.com/116419708/226095454-0708e941-b2f9-4e87-b967-248c7de83eec.gif)
 
-  - Moreover, write documentation for your code. Which is one of the best ways to improve understandability for other people who read your code.
+  - Moreover, write documentation for your code. This is one of the best ways to improve understandability for other people who read your code.
   - BUT, whenever you are writing comments, be sure to write *WHY* your code does something, and not *WHAT* it does. The code itself should be sufficient in
     showing what it is doing, due to its procedural (being a sequence of instructions) nature.
     <br><br>
