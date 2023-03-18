@@ -15,6 +15,11 @@
   Coding has to be, and can be, fun. And the first step towards that is to write code that doesn't make you want to **OFF** yourself whenever you're reading it.
   _Code architecture is important_, so here are some opinionated takes I have on good programming practices, which you can take as code design guidelines.
   <br><br>
+## TABLE OF CONTENTS:
+  - [BRACES AND INDENTS](/README.md#braces-and-indents)
+  - [NESTING AND CONDITIONS](/README.md#nesting-and-conditions)
+  - [NAMING AND CONSTANTS](/README.md#naming-and-constants)
+  
 ## BRACES AND INDENTS
 
   - When writing blocks of code (code within curly braces), there are 2 ways you can go about doing it, which I refer to as : **Inset** and **Offset**.
