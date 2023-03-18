@@ -128,6 +128,11 @@ int get_age(int bday_m, int bday_d, int bday_y, int targ_m, int targ_d, int targ
   - Moreover, write documentation for your code. This is one of the best ways to improve understandability for other people who read your code.
   - BUT, whenever you are writing comments, be sure to write *WHY* your code does something, and not *WHAT* it does. The code itself should be sufficient in
     showing what it is doing, due to its procedural (being a sequence of instructions) nature.
+  - An exemption to this rule are Docstrings, or the main comments that describe your function. All of your functions must have a docstring, paired with concise
+    function names. Not only does this benefit your readability, it also shows up as a short description whenever you hover over one of your function calls.
+    
+    ![image](https://user-images.githubusercontent.com/116419708/226097627-5d9b5ba9-e87b-4bac-974c-51479756f2a4.png)
+    
     <br><br>
     
 ## ONELINERS AND TERNARY OPERATORS
