@@ -138,7 +138,7 @@ int get_age(int bday_m, int bday_d, int bday_y, int targ_m, int targ_d, int targ
 
   - Though it doesn't hurt to come up with very line-efficient algorithms, there has to be a balance with the compactness and readability of your code.
   - Moreover; ternary operators are very satisfying to read, but it has diminishing returns the longer you chain it.
-  - A good rule of thumb is whenever your ternary operator chains _at least once_, you are better off using if-else statements.
+  - A good rule of thumb is whenever your ternary operator _chains at least once_, you are better off using if-else statements.
 
 ```
   /* ans can be "yes", "no", or "maybe" */
@@ -155,6 +155,7 @@ int get_age(int bday_m, int bday_d, int bday_y, int targ_m, int targ_d, int targ
 ```
 
 > **The less mental gymnastics the reader has to go through to understand your code, means the better your readability is.**
+
 <br><br>
 
 [^1]: [Why You Shouldn't Nest Your Code by Code Aesthetic](https://youtu.be/CFRhGnuXG-4)
