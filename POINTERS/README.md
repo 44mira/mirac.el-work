@@ -19,6 +19,16 @@
   As int holds numbers, pointers hold addresses. That is the main concept to understand here. You can get the value of a variable from the pointer, but you cannot get
   the pointer from the value. 
 
+
+
+## TABLE OF CONTENTS: 
+  - [DEREFERENCING](#DEREFERENCING)
+
+
+
+
+
+
 ## DEREFERENCING 
 
 ```
