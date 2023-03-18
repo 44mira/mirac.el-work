@@ -48,6 +48,50 @@ int main()
 }
 ```
   - Lastly, remember to properly indent whenever you enter a code block, and that you can omit the curly braces for when your code block only has **ONE** statement.
-    If you value stability over sleekness, it is much safer to put in the braces. Only if you are uncertain on whether or not that code block will expand in the future.
+    If you value stability over sleekness, it is much safer to put in the braces, if you are uncertain on whether or not that code block will expand in the future.
   - A good rule to check for matching braces is to see if the statement that started your code block aligns/is in the same indentation further down with a 
     closing curly brace.
+<br><br>
+## NESTING AND CONDITIONS
+
+  - Avoid overly nesting your code.[^1]
+  
+  ![earlyreturn](https://user-images.githubusercontent.com/116419708/226088447-dada514b-1c8a-44ed-bc82-3f47eb65a6c3.gif)
+  
+  - Getting rid of nesting can be a matter of identifying early returns (if-else clauses that can be negated by swapping the if and the else), and/or extracting
+    deeply nested code and putting them into their own seperate function.
+    
+```
+
+int get_year_value(int year)
+{
+    /* returns value of the year (leap year or not), for faster code. */
+    if (year % 4)
+        return 365;
+    return 366;
+    
+}
+
+int get_age(int bday_m, int bday_d, int bday_y, int targ_m, int targ_d, int targ_y)
+{
+    ...
+    while (targ_y > bday_y)
+    {
+        diff += get_year_value(bday_y); 
+        bday_y++;
+    }
+    ...
+}
+```
+**note how the if condition for getting year_value is put onto a seperate function as to not nest the code**
+
+  - Moreover, always remember that control flow operators (if-else, while loops, basically anything that requires a condition) take in boolean, or true or false.
+    Recall that true or false can be also represented as 0 and 1 in pretty much all programming languages, so a good shorthand for checking for zero or not zero,
+    is to just put the expression into the condition as is. (x != 0) is equal to simply (x), and (x == 0) is equal to (!x).
+  
+
+
+
+
+[^1]: [Why You Shouldn't Nest Your Code by Code Aesthetic](https://youtu.be/CFRhGnuXG-4)
+
