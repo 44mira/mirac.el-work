@@ -1,4 +1,4 @@
-# Code Readability
+# Code Readability (WIP)
 ###  or Coding for Human Consumption
 
 <br>
@@ -116,7 +116,7 @@ int get_age(int bday_m, int bday_d, int bday_y, int targ_m, int targ_d, int targ
 
   - In this example, refactoring/changing the code to handle an array of a different size than 5 is much less expensive (energy and time-wise) to do, especially
     if there are other instances in the code that utilize the size of the array.
-
+<br><br>
 
 
 [^1]: [Why You Shouldn't Nest Your Code by Code Aesthetic](https://youtu.be/CFRhGnuXG-4)
