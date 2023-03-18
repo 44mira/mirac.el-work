@@ -20,7 +20,7 @@ learned about.<sub> Plus I quite enjoy writing Markdown here :\></sub>
 
 - [x] [Code Readability, or Coding for Human Consumption](READABILITY/README.md)
   - Make aesthetically pleasing chaos machines.
-- [ ] [Pointers, and Pointers that point to Pointers, and Pointers that...](POINTERS/README.md) ***WIP***
+- [x] [Pointers, and Pointers that point to Pointers, and Pointers that...](POINTERS/README.md) ***WIP***
   - All about pointers and why they're actually pretty cool.
 - [ ] [Mathematics?!](MATH/README.md)
   - Logarithms, Binary Operations and Python Combinatorics?!!?!?!
