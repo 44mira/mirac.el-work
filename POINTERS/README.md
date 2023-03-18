@@ -127,7 +127,7 @@
   
   - However, memory addresses do not necessarily occupy just one byte, besides the address for a char, and varies on the data type's size.
   So to move *forward* in an integer array, you would essentially have to go forward by FOUR (int size is 4 bytes) bytes in memory.
-  However, we do not have to worry about that right now, as pointer arithmetic (C's way of navigating addresses) already deals with this for us.
+  BUT, we do not have to worry about that right now, as pointer arithmetic (C's way of navigating addresses) already deals with this for us.
   
   ![pointersarray](https://user-images.githubusercontent.com/116419708/226114818-20aaa354-bf83-4954-9413-5ef5ed376a59.gif)
   
