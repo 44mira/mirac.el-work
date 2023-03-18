@@ -110,6 +110,7 @@
   store them, they must know what type of value they're about to get.
   
   <br>
+  
 ## ARRAYS AND ARITHMETIC
   
 > Arrays are just pointers to *contiguous* data
