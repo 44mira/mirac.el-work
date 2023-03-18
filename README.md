@@ -1,4 +1,5 @@
 # mirac.el-work
+### by el and sharms
 ![capybara](https://user-images.githubusercontent.com/116419708/225995426-9f6284c2-d46a-4c9e-9a2f-316b103ee9b9.jpg)
 
 
@@ -11,7 +12,7 @@ I like learning and one of my biggest gripes with the education system is how th
 that will hopefully help someone out there enjoy learning about coding as much as I do. :hugs:
 
 Do note that most of these do not come from an actual Education background, but from someone who just wants to share some cool stuff he learned about.
-<sub> Plus I quite enjoy writing Markdown here :\></sub>
+Also my girlfriend decided that she would also help out in this tiny little project.<sub> Plus I quite enjoy writing Markdown here :\></sub>
 <br>
 
 ## **TABLE OF CONTENTS :**
@@ -46,7 +47,7 @@ I hope you find at least some of these materials helpful.
 ![goodbye](https://user-images.githubusercontent.com/116419708/226025688-1eedbdf5-bc37-4bbf-b946-a0d90bfab84a.gif)
 
 
-\- L
+\- L & S
 
 <br>
 return 0;
