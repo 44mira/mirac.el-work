@@ -144,8 +144,8 @@
 ```
 <sup>**the last index of the array will be located at (array_pointer + array_length-1) because the first index is at ( array_pointer + 0 )**</sup>
 
-  This knowledge is especially useful when passing arrays as arguments of a function, as the function itself just decays from, for example, int[] to (int \*),
-  which means it loses it's identity as an array (it will no longer know its size) and turns into a normal pointer, that just happens to be next to other pointers.
+  This knowledge is especially useful when passing arrays as arguments of a function, as the function itself just decays from int[] to (int \*) (in this example)
+  which means it loses its identity as an array (it will no longer know its size) and turns into a normal pointer, that just happens to be next to other pointers.
   Which is why in C it is common to pass an array along with its size.
   
 ```
