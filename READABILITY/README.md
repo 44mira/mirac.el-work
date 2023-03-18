@@ -1,4 +1,4 @@
-# Code Readability (WIP)
+# Code Readability
 ###  or Coding for Human Consumption
 <sup>*chapter author : el*</sup>
 <br>
