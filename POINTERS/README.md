@@ -92,7 +92,7 @@
 <sup>**everything we have done so far, with a little bit of c++ magic at the end**</sup>
 
   Dereferencing is so essential to pointer manipulation that C++ created a new function for the &, which makes it take the address of the passed variable, and then
-  automatically dereference it whenever it's used in the function, aka all the confusing syntax stuff we did, all into one operator! That's insane!.
+  automatically dereference it whenever it's used in the function, aka all the confusing syntax stuff we did, all into one operator! That's insane!
 
   Moreover; to answer the question that started this section: pointers have types so that the program knows the memory it will allocate for when it is dereferenced.
   So, in that way, you can think of pointers as almost-variables— they have yet to hold value, but in order for whatever it is that's receiving them to properly
