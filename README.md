@@ -6,13 +6,13 @@
 ## Hey there!
 ![hey there cpp](https://user-images.githubusercontent.com/116419708/225995365-c9e80994-9d72-4fdc-b92c-b5a6f18841ad.gif)
 
-### My name is Tyrael and I **love** coding and teaching whatever I can!
+### My name is Tyrael, author of this repository, with Sharmaigne, co-author, and we **love** coding and teaching whatever we can!
 
-I like learning and one of my biggest gripes with the education system is how they give it such a bad rep. So this is a passion project of mine,
-that will hopefully help someone out there enjoy learning about coding as much as I do. :hugs:
+We like learning and one of our biggest gripes with the education system is how they give it such a bad rep. So this is a passion project of ours,
+that will hopefully help someone out there enjoy learning about coding as much as we do. :hugs:
 
-Do note that most of these do not come from an actual Education background, but from someone who just wants to share some cool stuff he learned about.
-Also my girlfriend decided that she would also help out in this tiny little project.<sub> Plus I quite enjoy writing Markdown here :\></sub>
+Do note that most of these do not come from an actual Education background, but from me and my girlfriend who just want to share some cool stuff they 
+learned about.<sub> Plus I quite enjoy writing Markdown here :\></sub>
 <br>
 
 ## **TABLE OF CONTENTS :**
@@ -43,7 +43,7 @@ Also my girlfriend decided that she would also help out in this tiny little proj
 *... and possibly more*
 <br><br>
 
-I hope you find at least some of these materials helpful.
+We hope you find at least some of these materials helpful.
 ![goodbye](https://user-images.githubusercontent.com/116419708/226025688-1eedbdf5-bc37-4bbf-b946-a0d90bfab84a.gif)
 
 
