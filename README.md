@@ -17,7 +17,7 @@ Do note that most of these do not come from an actual Education background, but 
 ## **TABLE OF CONTENTS :**
 ### *Most of the code here will be in C++ or Python*
 
-- [ ] [Code Readability, or Coding for Human Consumption](READABILITY/README.md)
+- [x] [Code Readability, or Coding for Human Consumption](READABILITY/README.md)
   - Make aesthetically pleasing chaos machines.
 - [ ] [Pointers, and Pointers that point to Pointers, and Pointers that...](POINTERS/README.md)
   - All about pointers and why they're actually pretty cool.
