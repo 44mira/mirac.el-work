@@ -86,12 +86,34 @@ int get_age(int bday_m, int bday_d, int bday_y, int targ_m, int targ_d, int targ
 <sup>***note how the if condition for getting year_value is put onto a seperate function as to not nest the code***</sup>
 
   - Moreover, always remember that control flow operators (if-else, while loops, basically anything that requires a condition) take in boolean, or true or false.
-    Recall that true or false can be also represented as 0 and 1 in pretty much all programming languages, so a good shorthand for checking for zero or not zero,
+  - Recall that true or false can be also represented as 0 and 1 in pretty much all programming languages, so a good shorthand for checking for zero or not zero,
     is to just put the expression into the condition as is. (x != 0) is equal to simply (x), and (x == 0) is equal to (!x).
-  
+<br><br>
+## NAMING AND CONSTANTS
 
+  - Always use brief and concise names[^2], and only choose between **camelCase** or **snake_case**: 
+  
+![case](https://user-images.githubusercontent.com/116419708/226089997-7d0c61f4-8071-405d-b1a0-b3b4ab607319.gif)
+
+  - Avoid using single character names, with exceptions to for loops 'int i' or Python's _ throwaway variable. *Be descriptive*, you will have to interpret your code
+    multiple times over before you finally finish your project, do yourself a favor and make your variable names have less brain power cost.
+  - Moreover, please use constants. Avoid hard-coding values, and/or repeating long chains of method calls.
+
+![consts](https://user-images.githubusercontent.com/116419708/226090837-07d44b02-5cc6-405c-9dd8-f665f440ff2d.gif)
+
+  - Constants, or consts, are quite often overlooked as they just get overshadowed by variables, however; the security and readability that they provide
+    are actually quite unparalleled. 
+    
+```
+  const SIZE = 5;
+  int array[SIZE];
+```
+
+  - In this example, refactoring/changing the code to handle an array of a different size than 5 is much less expensive (energy and time-wise) to do, especially
+    if there are other instances in the code that utilize the size of the array.
 
 
 
 [^1]: [Why You Shouldn't Nest Your Code by Code Aesthetic](https://youtu.be/CFRhGnuXG-4)
+[^2]: [Naming Things in Code by Code Aesthetic](https://youtu.be/-J3wNP6u5YU)
 
