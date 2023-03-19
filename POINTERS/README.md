@@ -174,12 +174,15 @@
       - this is a function in C (you have to include <stdlib.h> in your program, however it is built-in in C++), that *allocates memory* for this particular pointer.
         - What it means to allocate memory, is that it *reserves* spaces in memory for your pointer to use, in whatever way you might want to.
       - This is essentially giving your pointer keys to a particular spot in the *heap* memory (you can think of heap memory as memory specifically for reservations like these)
+
   - **sizeof**;
       - this is an *operator* (like + and -) in C/C++ that returns the bytes occupied or being used by the variable that follows it.
+
   - **(sizeof (\*word) \* size);
       - these are the arguments being passed onto the malloc()
       - Recall that memory addresses do not necessarily occupy only one byte, so we have to get the size of the pointer, and then multiply it with the number of
         addresses we would like to *reserve*.
+        
   - **(char\*)**
       - Lastly, malloc() returns a pointer of the type void (void\*), which is basically it saying : "Alright, here's your spots, but I have no idea what cars you'll
         be parking here. And in this *type-cast* (conversion of a type to another), we are telling the program, "Hey, the spots we reserved are for *these* type of
