@@ -213,13 +213,15 @@
   int *nums = (int*) malloc (sizeof(*nums) * 3);
   *(nums+5) = 15;                         // Segmentation Fault, may or may not be raised by your compiler, but you are writing in an undefined address
 ```
-
-  ![image](https://user-images.githubusercontent.com/116419708/226161293-5ee6182a-e717-43f8-a8bb-3810fd4a1826.png)
   
 > C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off.
 > - Bjarne Stroustrup
 
 <sup>**very popular quote about c/c++ memory safety**</sup>
+
+<br>
+
+![image](https://user-images.githubusercontent.com/116419708/226161293-5ee6182a-e717-43f8-a8bb-3810fd4a1826.png)
 
 <br>
 
