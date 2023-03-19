@@ -188,6 +188,7 @@
         this lack of type-casting as an error, as it is *extremely* unsafe to just be tossing stuff into the *void* without knowing what it's for.
         
   So what's happening in our previous expression is like saying : "Hey, program, we would like to reserve **size** spots for our char\* cars."
+  
   Here's another example of that expression :
   
 ```
