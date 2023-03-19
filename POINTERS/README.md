@@ -222,5 +222,5 @@
 
 <br>
 
-[^1] [How to cause a segmentation fault](https://kb.iu.edu/d/aqsj#:~:text=A%20segfault%20occurs%20when%20a,in%20a%20read%2Donly%20segment.)
+[^1]: [How to cause a segmentation fault](https://kb.iu.edu/d/aqsj#:~:text=A%20segfault%20occurs%20when%20a,in%20a%20read%2Donly%20segment.)
   
