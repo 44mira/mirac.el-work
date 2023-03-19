@@ -160,7 +160,7 @@
   
 ## MALLOC aka MEMORY FREESTYLE
 
-> C/C++ is not a *memory safe* language.
+> C/C++ is not a *memory-safe* language.
 
   And in this section we will find out why that's the case.
   
@@ -177,7 +177,7 @@
   - **sizeof**;
       - this is an *operator* (like + and -) in C/C++ that returns the bytes occupied or being used by the variable that follows it.
   - **(sizeof (\*word) \* size);
-      - this are the arguments being passed onto the malloc()
+      - these are the arguments being passed onto the malloc()
       - Recall that memory addresses do not necessarily occupy only one byte, so we have to get the size of the pointer, and then multiply it with the number of
         addresses we would like to *reserve*.
   - **(char\*)**
@@ -195,4 +195,32 @@
   int *nums = (int*) malloc (sizeof (*nums) * 5);
 ```
 <sup>***allocating* 5 int addresses for our nums pointer**</sup>
+  
+  Now that you understand malloc, I would now like to congratulate you for creating a *memory leak!*
+  
+![pointermalloc](https://user-images.githubusercontent.com/116419708/226160489-c813dc76-60eb-4989-a278-7bd246c6cf0c.gif)
+  
+  I sometimes refer to memory allocation as ***memory freestyle*** only because C/C++ will let you directly access memory, and trust you to not mess things up.
+  You are quite literally, creating variables from scratch. But because you created them, you also have to be the one to clean up after them when they're done.
+  Allocated memory has to be freed by the programmer to avoid the aforementioned issue of *memory leaks*, which is, to put simply, when your program is still taking
+  up memory that it doesn't really use.
+  
+  Another issue you might, or might have already, encounter is *segmentation fault*. This is when your program tries to access memory it hasn't allocated yet.
+  This is a problem because, as the C documentation tries to sugarcoat it, we have no idea what it will do. It is *undefined* behavior.[^1] Sometimes your compiler
+  will catch your seg faults (when you try to write into undefined addresses), sometimes it *won't* (mess up your print statements), this is particularly dangerous.
+  
+```
+  int *nums = (int*) malloc (sizeof(*nums) * 3);
+  *(nums+5) = 15;                         // Segmentation Fault, may or may not be raised by your compiler, but you are writing in an undefined address
+```
+
+  ![image](https://user-images.githubusercontent.com/116419708/226161293-5ee6182a-e717-43f8-a8bb-3810fd4a1826.png)
+  
+> C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off.
+> - Bjarne Stroustrup
+<sup>**very popular quote about c/c++ memory safety**</sup>
+
+<br>
+
+[^1] [How to cause a segmentation fault](https://kb.iu.edu/d/aqsj#:~:text=A%20segfault%20occurs%20when%20a,in%20a%20read%2Donly%20segment.)
   
