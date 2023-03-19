@@ -175,10 +175,10 @@
         - What it means to allocate memory, is that it *reserves* spaces in memory for your pointer to use, in whatever way you might want to.
       - This is essentially giving your pointer keys to a particular spot in the *heap* memory (you can think of heap memory as memory specifically for reservations like these)
 
-  - **sizeof**;
+  - **sizeof**
       - this is an *operator* (like + and -) in C/C++ that returns the bytes occupied or being used by the variable that follows it.
 
-  - **(sizeof (\*word) \* size);
+  - **(sizeof (\*word) \* size)**;
       - these are the arguments being passed onto the malloc()
       - Recall that memory addresses do not necessarily occupy only one byte, so we have to get the size of the pointer, and then multiply it with the number of
         addresses we would like to *reserve*.
