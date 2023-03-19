@@ -24,6 +24,7 @@
 ## TABLE OF CONTENTS: 
   - [DEREFERENCING](#dereferencing)
   - [ARRAYS AND ARITHMETIC](#arrays-and-arithmetic)
+  - [MALLOC aka MEMORY FREESTYLE](#malloc-aka-memory-freestyle)
 <br><br><br>
 
 
@@ -154,4 +155,43 @@
       *(arr+i) /= 2;                      // halves every element of the array
   }
 ```
+  
+  <br>
+  
+## MALLOC aka MEMORY FREESTYLE
+
+> C/C++ is not a *memory safe* language.
+
+  And in this section we will find out why that's the case.
+  
+```
+  char *word = (char*) malloc (sizeof (*word) * size);
+```
+  
+  If you have dealt with pointers beforehand, you may recognize this syntax. Or kinda remember seeing it somewhere. So let us take the right-side of the assignment apart.
+  
+  - **malloc**
+      - this is a function in C (you have to include <stdlib.h> in your program, however it is built-in in C++), that *allocates memory* for this particular pointer.
+        - What it means to allocate memory, is that it *reserves* spaces in memory for your pointer to use, in whatever way you might want to.
+      - This is essentially giving your pointer keys to a particular spot in the *heap* memory (you can think of heap memory as memory specifically for reservations like these)
+  - **sizeof**;
+      - this is an *operator* (like + and -) in C/C++ that returns the bytes occupied or being used by the variable that follows it.
+  - **(sizeof (\*word) \* size);
+      - this are the arguments being passed onto the malloc()
+      - Recall that memory addresses do not necessarily occupy only one byte, so we have to get the size of the pointer, and then multiply it with the number of
+        addresses we would like to *reserve*.
+  - **(char\*)**
+      - Lastly, malloc() returns a pointer of the type void (void\*), which is basically it saying : "Alright, here's your spots, but I have no idea what cars you'll
+        be parking here. And in this *type-cast* (conversion of a type to another), we are telling the program, "Hey, the spots we reserved are for *these* type of
+        cars."
+      - And like in real life, in C, the program doesn't really care what type your cars are but it is a good habit to build, as in C++, your compiler will flag
+        this lack of type-casting as an error, as it is *extremely* unsafe to just be tossing stuff into the *void* without knowing what it's for.
+        
+  So what's happening in our previous expression is like saying : "Hey, program, we would like to reserve **size** spots for our char\* cars."
+  Here's another example of that expression :
+  
+```
+  int *nums = (int*) malloc (sizeof (*nums) * 5);
+```
+<sup>***allocating* 5 int addresses for our nums pointer**</sup>
   
