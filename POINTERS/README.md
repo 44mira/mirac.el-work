@@ -29,11 +29,9 @@
 
 
 
-
-
 ## DEREFERENCING 
 
-```
+```c
   // syntax 
   int *pointer_name;          // this holds an address of an int
   float *pointer_name;        // this holds an address of a float
@@ -58,7 +56,7 @@
   
   What follows is a simple exchange between the main() and an add_five() function which takes an int and returns the value of that int added with 5.
   
-```
+```c
   int add_five(int x){          // takes the value of x and returns an int
     return x + 5;
   }
@@ -72,7 +70,7 @@
   Easy right? But what if instead of returning a value to modify the num in main(), we could've just immediately changed it at the add_five() function?
   We can actually do that with pointers and dereferencing!
   
-```
+```c
   void add_five(int *x){         // takes the ADDRESS of x and no longer has to return anything
     *x += 5;                     // num is now equal to 5
   }
@@ -87,7 +85,7 @@
   num without having to return a value! We are no longer relying on returning values to change, well, values in main(), therefore we could theoretically 
   modify an infinite number of variables in main() with only **ONE** function!
   
-```
+```c
   void add_five(int *x, int *y, int *z){         // takes the ADDRESSES of x, y, and z
     *x += 5;
     *y += 5;
@@ -136,7 +134,7 @@
 
   What this means, is that with careful addition and subtraction, we can traverse through an array of elements! 
 
-```
+```c++
   int arr[] = {0, 13, 22, 34, 45};    // creation of array
   
   for (int i = 0; i < 5; i++) {
@@ -149,7 +147,7 @@
   which means it loses its identity as an array (it will no longer know its size) and turns into a normal pointer, that just happens to be next to other pointers.
   Which is why in C it is common to pass an array along with its size.
   
-```
+```c++
   void halve_array(int *arr, int size){ 
     for (int i = 0; i < size; i++)
       *(arr+i) /= 2;                      // halves every element of the array
@@ -164,7 +162,7 @@
 
   And in this section we will find out why that's the case.
   
-```
+```c++
   char *word = (char*) malloc (sizeof (*word) * size);
 ```
   
@@ -194,7 +192,7 @@
   
   Here's another example of that expression :
   
-```
+```c++
   int *nums = (int*) malloc (sizeof (*nums) * 5);
 ```
 <sup>***allocating* 5 int addresses for our nums pointer**</sup>
@@ -212,7 +210,7 @@
   This is a problem because, as the C documentation tries to sugarcoat it, we have no idea what it will do. It is *undefined* behavior.[^1] Sometimes your compiler
   will catch your seg faults (when you try to write into undefined addresses), sometimes it *won't* (mess up your print statements), this is particularly dangerous.
   
-```
+```c++
   int *nums = (int*) malloc (sizeof(*nums) * 3);
   *(nums+5) = 15;                         // Segmentation Fault, may or may not be raised by your compiler, but you are writing in an undefined address
 ```
@@ -221,6 +219,7 @@
 > - Bjarne Stroustrup
 
 <sup>**very popular quote about c/c++ memory safety**</sup>
+
 
 <br>
 
